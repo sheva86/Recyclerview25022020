@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageview"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="150dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:text="Nguyen van A"
+        android:layout_toRightOf="@id/imageview"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="#f20"
+        android:textStyle="bold"
+        android:id="@+id/textviewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="25"
+       android:layout_below="@id/textviewName"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold"
+        android:id="@+id/textviewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
